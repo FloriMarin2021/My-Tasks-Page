@@ -4,22 +4,22 @@
     grid-template-areas:
     'sidebar header header '
     'sidebar main  right'
-    'sidebar menu form';    
+    'sidebar menu form';
     grid-template-rows: 30px 200px 450px;
     grid-template-columns: 80px 850px auto;
-    overflow: hidden; 
+    overflow: hidden;
     gap:0.2em;
     grid-template-columns:repeat(auto-fit, minmax(300px));
-   
+
      }
 
 .item1 { grid-area: sidebar;
-      
+
          }
-        
-        
+
+
 .item2 { grid-area: header;
-   
+
    }
 
 
@@ -27,7 +27,7 @@
      }
 
 
-.item4 { grid-area: right; 
+.item4 { grid-area: right;
   }
 
 
@@ -38,4 +38,5 @@
     }
 
 
-    
+/* there are some classes defined here which are not used in the project,
+so we can remove them */

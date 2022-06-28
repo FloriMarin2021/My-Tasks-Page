@@ -1,19 +1,21 @@
-.header {  
-    flex-basis: 15%;    
+.header {
+    flex-basis: 15%;
     display: flex;
     justify-content: center;
-    margin: 1px;  
-    border: 2px solid black;  
+    margin: 1px;
+    border: 2px solid black;
 }
 
 
-.header h1 {    
+.header h1 {
     text-decoration:none;
     font-weight: bold;
     font-size: 23px;
     padding-top: 20px;
-    text-align: center; 
+    text-align: center;
     font-family:Arial;
     color:black;
-    
+
 }
+
+/* the empty line from line 18 should be removed */

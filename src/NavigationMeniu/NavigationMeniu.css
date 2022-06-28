@@ -1,11 +1,12 @@
 .NavigationMeniu {
     display: flex;
     justify-content:flex-start;
-    margin: 1px;  
+    margin: 1px;
     border: 2px solid black;
     flex-direction: column;
     height: 500px;
-    width: 100px;    
+    width: 100px;
 }
 
-
+/* the class name should be named navigation-menu */
+/* same for the other files like: my-tasks-page, task-form, etc */
